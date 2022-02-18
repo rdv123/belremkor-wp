@@ -7,7 +7,7 @@ Template Name: page-contacts
 // … остальной код шаблона
 ?>
 
-<?php get_header(); ?>
+<?php get_header('other'); ?>
 
 
       <div class="back_re">

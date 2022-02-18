@@ -5,11 +5,15 @@
 add_action( 'wp_enqueue_scripts', 'belremcor_scripts' );
 // add_action('wp_print_styles', 'belremcor2_scripts'); // можно использовать этот хук он более поздний
 function belremcor_scripts() {
+	//<link rel="icon" href="icon/logo-belremkor-icon.ico" />
 	
 	wp_enqueue_style( 'belremcor-bootstrap.min', get_template_directory_uri().'/css/bootstrap.min.css' );
 	
 	wp_enqueue_style( 'belremcor-style', get_template_directory_uri().'/style.css' );
 	wp_enqueue_style( 'belremcor-responsive', get_template_directory_uri().'/css/responsive.css' );
+
+	//wp_enqueue_style( 'belremcor-icon', get_template_directory_uri().'/icon/logo-belremkor-icon.ico' );
+
 	wp_enqueue_style( 'belremcor-jquery.mCustomScrollbar.min', get_template_directory_uri().'/css/jquery.mCustomScrollbar.min.css' );
 	wp_enqueue_style( 'belremcor-font-awesome', 'https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css');
 	wp_enqueue_style( 'belremcor-jquery.fancybox.min', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css' );
@@ -97,6 +101,16 @@ function fix_svg_mime_type( $data, $file, $filename, $mimes, $real_mime = '' ){
 	}
 
 	return $data;
+}
+
+// function add_favicon() {
+// 	echo ‘<link rel="shortcut icon" type="image/png" href="'.get_template_directory_uri()'.'/icon/logo-belremkor-icon.ico'" />’;
+// }
+// add_action('wp_head', 'add_favicon');
+
+add_action( 'wp_head', 'ilc_favicon');
+function ilc_favicon(){
+    echo "<link rel='shortcut icon' href='" . get_stylesheet_directory_uri() . "/icon/logo-belremkor2.ico' />" . "\n";
 }
 
 ?>
