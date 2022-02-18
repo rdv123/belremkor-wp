@@ -18,7 +18,7 @@
         <!-- fevicon -->
       <!-- <link rel="icon" href="icon/logo-belremkor-icon.ico" /> -->
 
-     
+      <?php wp_head(); ?>
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -85,28 +85,23 @@
                               </div>
                            </div>
                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                              
                               <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                                 
                                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                                  <span class="navbar-toggler-icon"></span>
                                  </button>
                                  <div class="collapse navbar-collapse" id="navbarsExample04">
-                                    <ul class="navbar-nav mr-auto">
-                                       <li class="nav-item active">
-                                          <a class="nav-link" href="index.html">ГЛАВНАЯ</a>
-                                       </li>
-                                       <li class="nav-item">
-                                          <a class="nav-link" href="#">О НАС</a>
-                                       </li>
-                                       <!-- <li class="nav-item">
-                                          <a class="nav-link" href="project.html">ОБЪЕКТЫ</a>
-                                       </li> -->
-                                       <li class="nav-item">
-                                          <a class="nav-link" href="#">УСЛУГИ</a>
-                                       </li>
-                                       <li class="nav-item">
-                                          <a class="nav-link" href="#">КОНТАКТЫ</a>
-                                       </li>
-                                    </ul>
+                                    <?php wp_nav_menu(array(
+
+                                       'theme_location' => 'top',
+                                       'container'       => null,
+                                       'menu_class'      => 'navbar-nav mr-auto',
+                                       'menu_id'         => 'nav',
+
+                                       )); 
+                                    ?>
+                                    
                                  </div>
                                  <ul class="search">
                                     <li><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
