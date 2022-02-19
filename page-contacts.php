@@ -10,12 +10,13 @@ Template Name: page-contacts
 <?php get_header('other'); ?>
 
 
+
       <div class="back_re">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="title">
-                     <h2>Contact Us</h2>
+                     <h2>Наши контакты</h2>
                   </div>
                </div>
             </div>
@@ -28,28 +29,14 @@ Template Name: page-contacts
                <div class="col-md-6 padding_right0">
                   <form id="request" class="main_form">
                      <div class="row">
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone" type="type" name="Phone">                          
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send</button>
-                        </div>
+                     <?php echo do_shortcode('[contact-form-7 id="34" title="Контактная форма"]') ?>
                      </div>
                   </form>
                </div>
                <div class="col-md-6 padding_left0">
                   <div class="map_main">
                      <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="463" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                     <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=28786946747" width="560" height="400" frameborder="0"></iframe>
                      </div>
                   </div>
                </div>

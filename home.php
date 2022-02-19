@@ -46,7 +46,7 @@ Template Name: home
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Наши проекты</h2>
-                     <span>Здесь будут фото с объектов и их краткое описание</span>
+                     <span>Лучшее представление о нас дадут наши выполненные проекты</span>
                   </div>
                </div>
             </div>
