@@ -22,7 +22,91 @@ Template Name: page-contacts
             </div>
          </div>
       </div>
+
       <!--  contact -->
+
+      <!-- <div class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>ООО БелРемКор</h2>
+                     <span>
+                        Адрес: 230003, г. Гродно, ул. Карского, д. 31.<br>
+                        Телефон: +375(29)701-94-31<br>
+                        Факс: 8(0152) 65-55-51<br>
+                     </span>
+                     <h3>
+                        График работы
+                     </h3>
+                     <span>
+                        Понедельник - Пятница с 9.00 до 18.00<br>
+                        Суббота, Воскресенье - выходной
+                     </span>
+                     <h3>
+                        Наши реквизиты
+                     </h3>
+                     <span> 
+                     УНП 591025958<br>
+                     р/с BY85ALFA30122260140020270000<br>
+                     в ЗАО 'Альфа-Банк', ул. Сурганова, 43-47,<br>
+                     220013 Минск, Республика Беларусь<br>
+                     БИК-ALFABY2X, ОКПО 37526626
+ 
+                     </span>
+                     
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="about_img2">
+                     <figure><img src="<?php bloginfo('template_url');  ?>/images/sample2.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+
+      <div class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-4">
+                  <div class="titlepage">
+                  <h2>ООО БелРемКор</h2>
+                     <span>
+                        Адрес: 230003, г. Гродно, ул. Карского, д. 31.<br>
+                        Телефон: +375(29)701-94-31<br>
+                        Факс: 8(0152) 65-55-51<br>
+                     </span>
+                     <h3>
+                        График работы
+                     </h3>
+                     <span>
+                        Понедельник - Пятница с 9.00 до 18.00<br>
+                        Суббота, Воскресенье - выходной
+                     </span>
+                     <h3>
+                        Наши реквизиты
+                     </h3>
+                     <span> 
+                     УНП 591025958<br>
+                     р/с BY85ALFA30122260140020270000<br>
+                     в ЗАО 'Альфа-Банк', ул. Сурганова, 43-47,<br>
+                     220013 Минск, Республика Беларусь<br>
+                     БИК-ALFABY2X, ОКПО 37526626
+ 
+                     </span>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="about_img">
+                     <figure><img src="<?php bloginfo('template_url');  ?>/images/sample2.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
       <div class="contact">
          <div class="container">
             <div class="row">

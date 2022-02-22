@@ -210,7 +210,7 @@ Template Name: page-aboutus
                                     <div class="row d_flex">
                                        <div class="col-md-12">
                                           <i><img class="qusright" src="<?php bloginfo('template_url');  ?>/images/t.png" alt="#"/>
-                                             <img src="<?php bloginfo('template_url');  ?>/images/kremko.png" alt="#"/>
+                                             <img src="<?php bloginfo('template_url');  ?>/images/kremko4.png" alt="#"/>
                                              <img class="qusleft" src="<?php bloginfo('template_url');  ?>/images/t.png" alt="#"/>
                                             </i>
                                           <div class="consect">
@@ -237,11 +237,11 @@ Template Name: page-aboutus
                                     <div class="row d_flex">
                                        <div class="col-md-12">
                                           <i><img class="qusright" src="<?php bloginfo('template_url');  ?>/images/t.png" alt="#"/>
-                                             <img src="<?php bloginfo('template_url');  ?>/images/42112.gif" alt="#"/>
+                                             <img src="<?php bloginfo('template_url');  ?>/images/gpf1.png" alt="#"/>
                                              <img class="qusleft" src="<?php bloginfo('template_url');  ?>/images/t.png" alt="#"/>
                                             </i>
                                           <div class="consect">
-                                             <span>КПСУ «Гродненская птицефабрика»</span>
+                                             <span>КПСУ «Гродненская ПФ»</span>
                                              <!-- <p>Коммунальное производственное сельскохозяйственное унитарное
                                                 предприятие «Гродненская птицефабрика» выражает свою благодарность,
                                                 как ООО «БелРемКор» так и сотрудникам Вашей компании за
@@ -256,14 +256,28 @@ Template Name: page-aboutus
                                  </div>
                               </div>
                            </div>
-                           <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                           <div class="carousel-button">
+                              <div class="button-left">
+                                 <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                                 <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                 <span class="sr-only">Previous</span>
+                                 </a>
+                              </div>
+                              <div class="button-right">
+                                 <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <span class="sr-only">Next</span>
+                                 </a>
+                              </div>
+                           </div>
+                           <!-- <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
                            <span class="sr-only">Previous</span>
                            </a>
                            <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
                            <span class="sr-only">Next</span>
-                           </a>
+                           </a> -->
                         </div>
                      </div>
                   </div>
