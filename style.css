@@ -1349,3 +1349,8 @@ ul.insta li {
 }
 
 
+/* my slider */
+.slider{
+     width: 400px;
+     height: 600px;
+}

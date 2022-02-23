@@ -23,10 +23,16 @@ Template Name: page-aboutus
       <div class="about">
          <div class="container-fluid">
             <div class="row d_flex">
-               <div class="col-md-7">
+               <div class="col-md-4">
                   <div class="titlepage">
                      <h2>О нашей компании</h2>
-                     <span>Компания ООО БелРемКор осуществляет помощь по сбору предпроектной документации. Оказывает услуги по проектированию, выполнению строительно-монтажных и пусконаладочных работ и сдаче объекта в эксплуатацию по следующим направлениям: водоснабжение и канализация, электроснабжение, газоснабжение, отопление и вентиляция. Компания имеет собственную электроизмерительную лабораторияю,что позволяет производить электрофизические измерения (ЭФИ) на любых видах объектов. Наши специалисты высококвалифицированны и имеют большой опыт работы в сфере электроизмерений и допущены к работе с повышенным напряжением.
+                     <span>Компания ООО БелРемКор осуществляет помощь по сбору предпроектной документации. 
+                        Оказывает услуги по проектированию, выполнению строительно-монтажных и пусконаладочных 
+                        работ и сдаче объекта в эксплуатацию по следующим направлениям: водоснабжение и 
+                        канализация, электроснабжение, газоснабжение, отопление и вентиляция. Компания имеет
+                         собственную электроизмерительную лабораторияю,что позволяет производить электрофизические 
+                         измерения (ЭФИ) на любых видах объектов. Наши специалисты высококвалифицированны и имеют
+                          большой опыт работы в сфере электроизмерений и допущены к работе с повышенным напряжением.
 
                      </span>
                      <!-- <a class="read_more" href="Javascript:void(0)"> Read More</a> -->
@@ -41,13 +47,13 @@ Template Name: page-aboutus
          </div>
       </div>
       <!-- end about -->
-      <div class="projects">
+      <!-- <div class="projects">
          <div class="container-fluid">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>Наши проекты</h2>
-                     <span>Здесь будут фото с объектов и их краткое описание</span>
+                     <h2>Наши документы</h2>
+                     
                   </div>
                </div>
             </div>
@@ -58,6 +64,7 @@ Template Name: page-aboutus
                         <li data-target="#proj" data-slide-to="0" class="active"></li>
                         <li data-target="#proj" data-slide-to="1"></li>
                         <li data-target="#proj" data-slide-to="2"></li>
+                        <li data-target="#proj" data-slide-to="3"></li>
                      </ol>
                      <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -68,8 +75,8 @@ Template Name: page-aboutus
                                         global $post;
 
                                         $myposts = get_posts([ 
-                                            'numberposts' => 3,
-                                            'category_name' => 'project_part_1'
+                                            'numberposts' => 4,
+                                            'category_name' => 'doc-part1'
 
                                         ]);
 
@@ -77,18 +84,15 @@ Template Name: page-aboutus
                                             foreach( $myposts as $post ){
                                                 setup_postdata( $post );
                                      ?>
-                                    <!-- Вывод постов, функции цикла: the_title() и т.д. -->
+                                   
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                        <div class="project">
                                           <div class="project_img">
 
-                                             <?php the_post_thumbnail(); ?>
+                                             <?php the_post_thumbnail('spec_doc'); ?>
                                           </div>
-                                          <div id="pro_ho" class="project_text">
-                                             <h3><?php the_title(); ?></h3>
-                                             <p><?php the_content() ?></p>
-                                          </div>
+                                          
                                        </div>
                                     </div>
 
@@ -110,27 +114,97 @@ Template Name: page-aboutus
                                         global $post;
 
                                         $myposts = get_posts([ 
-                                            'numberposts' => 3,
-                                            'category_name' => 'project_part_2'
+                                            'numberposts' => 4,
+                                            'category_name' => 'doc-part2'
                                         ]);
 
                                         if( $myposts ){
                                             foreach( $myposts as $post ){
                                                 setup_postdata( $post );
                                      ?>
-                                    <!-- Вывод постов, функции цикла: the_title() и т.д. -->
+                                    
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
+                                       <div class="project">
+                                          <div class="project_img">
+                                             <?php the_post_thumbnail('spec_doc'); ?>
+                                          </div>
+                                          
+                                       </div>
+                                    </div>
+
+
+                                     <?php 
+                                            } }  wp_reset_postdata(); 
+                                     ?>
+                                   
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative3">
+                                 <div class="row">
+                                     <?php
+                                        global $post;
+
+                                        $myposts = get_posts([ 
+                                            'numberposts' => 4,
+                                            'category_name' => 'doc-part3'
+
+                                        ]);
+
+                                        if( $myposts ){
+                                            foreach( $myposts as $post ){
+                                                setup_postdata( $post );
+                                     ?>
+                                   
+
+                                    <div class="col-md-3">
                                        <div class="project">
                                           <div class="project_img">
 
-                                             <!-- <figure><img src="<?php bloginfo('template_url');  ?>/<?php bloginfo('template_url');  ?>/images/3.jpg" alt="#"/></figure> -->
-                                             <?php the_post_thumbnail(); ?>
+                                             <?php the_post_thumbnail('spec_doc'); ?>
                                           </div>
-                                          <div id="pro_ho" class="project_text">
-                                             <h3><?php the_title(); ?></h3>
-                                             <p><?php the_content() ?></p>
+                                          
+                                       </div>
+                                    </div>
+
+
+                                     <?php 
+                                            } }  wp_reset_postdata(); 
+                                     ?>
+
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative3">
+                                 <div class="row">
+                                 <?php
+                                        global $post;
+
+                                        $myposts = get_posts([ 
+                                            'numberposts' => 4,
+                                            'category_name' => 'doc-part4'
+                                        ]);
+
+                                        if( $myposts ){
+                                            foreach( $myposts as $post ){
+                                                setup_postdata( $post );
+                                     ?>
+                                   
+
+                                    <div class="col-md-3">
+                                       <div class="project">
+                                          <div class="project_img">
+                                             <?php the_post_thumbnail('spec_doc'); ?>
                                           </div>
+                                          
                                        </div>
                                     </div>
 
@@ -158,15 +232,58 @@ Template Name: page-aboutus
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- clients -->
+
+      <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Почему выбирают нас?</h2>
+                     
+                  </div>
+               </div>
+            </div>
+           
+
+            <div class="about">
+               <div class="container-fluid">
+                  <div class="row d_flex">
+                     <div class="col-md-4">
+                        <div class="titlepage">
+                           <h2>О нашей компании</h2>
+                           <span>Компания ООО БелРемКор осуществляет помощь по сбору предпроектной документации. 
+                              Оказывает услуги по проектированию, выполнению строительно-монтажных и пусконаладочных 
+                              работ и сдаче объекта в эксплуатацию по следующим направлениям: водоснабжение и канализация, 
+                              электроснабжение, газоснабжение, отопление и вентиляция. Компания имеет собственную 
+                              электроизмерительную лабораторияю,что позволяет производить электрофизические измерения 
+                              (ЭФИ) на любых видах объектов. Наши специалисты высококвалифицированны и имеют большой 
+                              опыт работы в сфере электроизмерений и допущены к работе с повышенным напряжением.
+
+                           </span>
+                           
+                        </div>
+                     </div>
+                     <div class="col-md-5">
+                        <div class="about_img">
+                        
+                           <?php
+                              echo do_shortcode('[smartslider3 slider="3"]');
+                           ?>
+                           <h2>Сертификаты</h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         
+
       <div class="clients">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Наши клиенты</h2>
-                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                    
                   </div>
                </div>
             </div>

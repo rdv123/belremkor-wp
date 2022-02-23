@@ -113,4 +113,7 @@ function ilc_favicon(){
     echo "<link rel='shortcut icon' href='" . get_stylesheet_directory_uri() . "/icon/logo-belremkor2.ico' />" . "\n";
 }
 
+
+add_image_size( 'spec_doc', 336, 462, true )
+
 ?>
