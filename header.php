@@ -103,9 +103,9 @@
                                     ?>
                                     
                                  </div>
-                                 <ul class="search">
+                                 <!-- <ul class="search">
                                     <li><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                 </ul>
+                                 </ul> -->
                               </nav>
                            </div>
                         </div>
