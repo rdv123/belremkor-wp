@@ -1,3 +1,12 @@
+<?php
+/*
+Template Name: header
+
+*/
+
+// … остальной код шаблона
+?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
    <head>

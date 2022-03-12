@@ -44,7 +44,7 @@ Template Name: home
          <div class="container-fluid">
             <div class="row">
                <div class="col-md-12">
-                  <div class="titlepage">
+                  <div class="titlepage2">
                      <h2>Наши проекты</h2>
                      <span>Лучше о нас скажут наши выполненные проекты</span>
                   </div>

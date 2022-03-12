@@ -498,6 +498,15 @@ ul.search li a:hover {
      padding-bottom: 40px;
 }
 
+.titlepage2 {
+     text-align: center;
+     padding-bottom: 40px;
+     .titlepage {
+     /* text-align: center; */
+     padding-bottom: 40px;
+}
+}
+
 .titlepage h2 {
      font-size: 40px;
      color: #1c1c1c;
@@ -514,12 +523,29 @@ ul.search li a:hover {
      display: block;
 }
 
+.titlepage2 h2 {
+     font-size: 40px;
+     color: #1c1c1c;
+     line-height: 40px;
+     font-weight: 700;
+     padding: 0;
+}
+
+.titlepage2 span {
+     font-size: 17px;
+     line-height: 25px;
+     color: #0a0a0a;
+     padding-top: 30px;
+     display: block;
+}
+
 
 .d_flex {
      display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 .read_more {
@@ -594,6 +620,7 @@ ul.search li a:hover {
 
 .p-benefits {
      border-bottom: black solid 1px;
+     margin-left: 10px;
 }
 
 .benefits{
@@ -602,7 +629,7 @@ ul.search li a:hover {
      list-style:decimal !important */
      display: flex;
      margin: 10px;
-     align-items: center
+     align-items: flex-start
 }
 
 .about {
@@ -1168,7 +1195,7 @@ ul.social_icon_staff li a:hover {
 
 .footer {
      background: #161825;
-     padding-top: 90px;
+     padding-top: 50px;
      text-align: center;
 }
 

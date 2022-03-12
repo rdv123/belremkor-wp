@@ -42,7 +42,7 @@ Template Name: header-other
                   <div class="row">
                      <div class="col-md-3">
                         <ul class="contat_infoma">
-                           <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+<?php the_field('phone_number'); ?>"><?php the_field('phone'); ?></a></li>
+                           <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+<?php the_field('phone_number'); ?>"><?php the_field('phone2'); ?></a></li>
                         </ul>
                      </div>
                      <div class="col-md-6">
@@ -110,9 +110,9 @@ Template Name: header-other
                                     ?>
                                     
                                  </div>
-                                 <ul class="search">
+                                 <!-- <ul class="search">
                                     <li><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                 </ul>
+                                 </ul> -->
                               </nav>
                            </div>
                         </div>
