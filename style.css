@@ -506,6 +506,7 @@ ul.search li a:hover {
 }
 
 .titlepage h2 {
+     margin-bottom: 30px;
      font-size: 40px;
      color: #1c1c1c;
      line-height: 40px;
@@ -632,7 +633,7 @@ ul.search li a:hover {
 
 .about {
      background-color: #fff;
-     padding-top: 90px;
+     padding-top: 40px;
 }
 
 .about_2 {
@@ -1418,4 +1419,10 @@ ul.insta li {
 .slider{
      width: 400px;
      height: 600px;
+}
+
+.policy{
+    
+     margin-top: 10px;
+    
 }

@@ -5,8 +5,8 @@
                   <div class=" col-lg-3 col-md-6">
                      <a class="logo_bottom"><img src="<?php bloginfo('template_url');  ?>/images/belremcor-footer.png" alt="#"/></a>
                      <address class="many">
-                        <p class="p-footer">230003, Гродно, ул. Карского, 31<br>
-                           УНП 591025958 <br>
+                        <p class="p-footer">
+                           <?php the_field('address');?>
                            <a class="a-footer" href="tel:+<?php the_field('phone_number'); ?>"><?php the_field('phone'); ?></a>
                         </p>
                         
@@ -47,7 +47,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-8 offset-md-2">
-                        <p>© 2022 <a href="#">Политика конфиденциальности</a><br> Design by <a href="https://rdv123.github.io/freelans-pf1/"> RDV</a></p>
+                        <p>© 2022 <a href="<?php echo get_page_link("3"); ?>">Политика конфиденциальности</a><br> Design by <a href="https://rdv123.github.io/freelans-pf1/"> RDV</a></p>
                      </div>
                   </div>
                </div>

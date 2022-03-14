@@ -140,11 +140,8 @@ Template Name: header
                            <div class="row">
                               <div class="col-md-9">
                                  <div class="build_box">
-                                    <h1>Мы проектируем!</h1>
-                                    <p>Выполняем функции генерального проектировщика.
-                                       <br> Проектируем котельные, объекты газорапределительной системы и газопотребления.
-                                       <br> Проектируем внутреннее инженерное оборудование.
-                                       <br> Проектируем отопление, вентиляцию и кондиционирование воздуха.
+                                    <h1><?php the_field('slider_1'); ?></h1>
+                                    <p><?php the_field('slider_text_1'); ?>
                                     </p>
                                     <a class="read_more conatct_btn" href="contact.html" role="button">Подробнее</a>
                                  </div>
@@ -159,8 +156,8 @@ Template Name: header
                            <div class="row">
                               <div class="col-md-9">
                                  <div class="build_box">
-                                    <h1>Мы производим монтаж!</h1>
-                                    <p>Выполняем строительно-монтажные работы по водоснабжению, электроснабжению и газоснабжение, а так же по отоплению и вентиляции </p>
+                                    <h1><?php the_field('slider_2'); ?></h1>
+                                    <p><?php the_field('slider_text_2'); ?></p>
                                     <a class="read_more conatct_btn" href="contact.html" role="button">Подробнее</a>
                                  </div>
                               </div>
@@ -174,8 +171,8 @@ Template Name: header
                            <div class="row">
                               <div class="col-md-9">
                                  <div class="build_box">
-                                    <h1>Мы обслуживаем!</h1>
-                                    <p>Производим пусконаладочные работы.<br> Обслуживаем потенциально опасные объекты!</p>
+                                    <h1><?php the_field('slider_3'); ?></h1>
+                                    <p><?php the_field('slider_text_3'); ?></p>
                                     <a class="read_more conatct_btn" href="contact.html" role="button">Подробнее</a>
                                  </div>
                               </div>

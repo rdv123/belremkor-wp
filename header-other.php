@@ -42,7 +42,7 @@ Template Name: header-other
                   <div class="row">
                      <div class="col-md-3">
                         <ul class="contat_infoma">
-                           <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+<?php the_field('phone_number'); ?>"><?php the_field('phone2'); ?></a></li>
+                           <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+<?php the_field('phone_number'); ?>"><?php the_field('phone'); ?></a></li>
                         </ul>
                      </div>
                      <div class="col-md-6">

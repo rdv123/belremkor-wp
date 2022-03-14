@@ -63,8 +63,7 @@ Template Name: home
                            <div class="container-fluid">
                               <div class="carousel-caption relative3">
                                  <div class="row">
-                                     <?php
-                                        global $post;
+                                     <?php global $post;
 
                                         $myposts = get_posts([ 
                                             'numberposts' => 3,
@@ -92,9 +91,7 @@ Template Name: home
                                     </div>
 
 
-                                     <?php 
-                                            } }  wp_reset_postdata(); 
-                                     ?>
+                                     <?php } }  wp_reset_postdata(); ?>
 
                                     
                                  </div>
