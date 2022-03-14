@@ -28,16 +28,15 @@ Template Name: page-serviсes
                   <div class="titlepage">
                      <h2>Проектирование</h2>
                      <span>
-                        - Выполнение функций генерального проектировщика;<br>
-                        - Проектирование (разработка технического раздела) котельных;<br>
-                        
+                     
+                        <?php the_field('design'); ?>
                      </span>
                      <!-- <a class="read_more" href="Javascript:void(0)"> Read More</a> -->
                   </div>
                </div>
                <div class="col-md-5">
                   <div class="about_img">
-                     <figure><img src="<?php bloginfo('template_url');  ?>/images/about.png" alt="#"/></figure>
+                     <figure><img src="<?php bloginfo('template_url');  ?>/images/service_2.jpg" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -51,13 +50,13 @@ Template Name: page-serviсes
                
                <div class="col-md-5">
                   <div class="about_img">
-                     <figure><img src="<?php bloginfo('template_url');  ?>/images/about.png" alt="#"/></figure>
+                     <figure><img src="<?php bloginfo('template_url');  ?>/images/service_6.jpg" alt="#"/></figure>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="titlepage">
                      <h2>Монтаж</h2>
-                     <span>Компания ООО БелРемКор осуществляет помощь по сбору предпроектной документации. Оказывает услуги по проектированию, выполнению строительно-монтажных и пусконаладочных работ и сдаче объекта в эксплуатацию по следующим направлениям: водоснабжение и канализация, электроснабжение, газоснабжение, отопление и вентиляция. Компания имеет собственную электроизмерительную лабораторияю,что позволяет производить электрофизические измерения (ЭФИ) на любых видах объектов. Наши специалисты высококвалифицированны и имеют большой опыт работы в сфере электроизмерений и допущены к работе с повышенным напряжением.
+                     <span><?php the_field('mounting'); ?>
 
                      </span>
                      <!-- <a class="read_more" href="Javascript:void(0)"> Read More</a> -->
@@ -74,7 +73,7 @@ Template Name: page-serviсes
                <div class="col-md-4">
                   <div class="titlepage">
                      <h2>Наладка и обслуживание</h2>
-                     <span>Компания ООО БелРемКор осуществляет помощь по сбору предпроектной документации. Оказывает услуги по проектированию, выполнению строительно-монтажных и пусконаладочных работ и сдаче объекта в эксплуатацию по следующим направлениям: водоснабжение и канализация, электроснабжение, газоснабжение, отопление и вентиляция. Компания имеет собственную электроизмерительную лабораторияю,что позволяет производить электрофизические измерения (ЭФИ) на любых видах объектов. Наши специалисты высококвалифицированны и имеют большой опыт работы в сфере электроизмерений и допущены к работе с повышенным напряжением.
+                     <span><?php the_field('adjustment'); ?>
 
                      </span>
                      
@@ -82,7 +81,7 @@ Template Name: page-serviсes
                </div>
                <div class="col-md-5">
                   <div class="about_img">
-                     <figure><img src="<?php bloginfo('template_url');  ?>/images/about.png" alt="#"/></figure>
+                     <figure><img src="<?php bloginfo('template_url');  ?>/images/service_7.jpg" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -96,14 +95,14 @@ Template Name: page-serviсes
                
                <div class="col-md-5">
                   <div class="about_img">
-                     <figure><img src="<?php bloginfo('template_url');  ?>/images/about.png" alt="#"/></figure>
+                     <figure><img src="<?php bloginfo('template_url');  ?>/images/service_8.jpg" alt="#"/></figure>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="titlepage">
                      <h2>Электрофизические измерения</h2>
-                     <span>Компания ООО БелРемКор осуществляет помощь по сбору предпроектной документации. Оказывает услуги по проектированию, выполнению строительно-монтажных и пусконаладочных работ и сдаче объекта в эксплуатацию по следующим направлениям: водоснабжение и канализация, электроснабжение, газоснабжение, отопление и вентиляция. Компания имеет собственную электроизмерительную лабораторияю,что позволяет производить электрофизические измерения (ЭФИ) на любых видах объектов. Наши специалисты высококвалифицированны и имеют большой опыт работы в сфере электроизмерений и допущены к работе с повышенным напряжением.
-
+                     <span>
+                        <?php the_field('measurements'); ?>
                      </span>
                   
                   </div>

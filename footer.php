@@ -6,7 +6,8 @@
                      <a class="logo_bottom"><img src="<?php bloginfo('template_url');  ?>/images/belremcor-footer.png" alt="#"/></a>
                      <address class="many">
                         <p class="p-footer">
-                           <?php the_field('address');?>
+                           <?php the_field('address');?><br>
+                           <?php the_field('id_company'); ?><br>
                            <a class="a-footer" href="tel:+<?php the_field('phone_number'); ?>"><?php the_field('phone'); ?></a>
                         </p>
                         
