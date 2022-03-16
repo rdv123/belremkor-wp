@@ -216,7 +216,7 @@ Template Name: home
                <div class="col-md-6 padding_left0">
                   <div class="map_main">
                      <div class="map-responsive">
-                        <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=28786946747" width="560" height="400" frameborder="0"></iframe>
+                        <iframe class="map-yandex" src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=28786946747"  frameborder="0"></iframe>
                      </div>
                   </div>
                </div>
