@@ -50,7 +50,7 @@ Template Name: page-serviсes
                
                <div class="col-md-5">
                   <div class="about_img">
-                     <figure><img src="<?php bloginfo('template_url');  ?>/images/service_6.jpg" alt="#"/></figure>
+                     <figure><img src="<?php bloginfo('template_url');  ?>/images/montaj.jpg" alt="#"/></figure>
                   </div>
                </div>
                <div class="col-md-4">
@@ -81,7 +81,7 @@ Template Name: page-serviсes
                </div>
                <div class="col-md-5">
                   <div class="about_img">
-                     <figure><img src="<?php bloginfo('template_url');  ?>/images/service_7.jpg" alt="#"/></figure>
+                     <figure><img src="<?php bloginfo('template_url');  ?>/images/naladka.jpg" alt="#"/></figure>
                   </div>
                </div>
             </div>
